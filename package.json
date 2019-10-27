@@ -1,7 +1,7 @@
 {
-  "name": "react-next-starter",
-  "version": "3.0.1",
-  "description": "A production-ready starter to build a SSR React app using NextJs and Material-ui.",
+  "name": "dad-jokes",
+  "version": "0.0.1",
+  "description": "Fetch random dad jokes",
   "main": "server/server.js",
   "scripts": {
     "dev": "NODE_ENV=development node server/",

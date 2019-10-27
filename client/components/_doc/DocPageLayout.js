@@ -3,7 +3,6 @@ import List     from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import Paper    from '@material-ui/core/Paper';
 import React    from 'react';
-
 import wrapper from '../../lib/componentWrapper';
 import Link    from '../common/Link';
 

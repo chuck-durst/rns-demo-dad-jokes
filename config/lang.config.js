@@ -6,7 +6,7 @@ module.exports = {
 
   // Enable all the translation services.
   // If you disable it, it means no routes translation, no locales files, and so on...
-  enabled: true,
+  enabled: false,
 
   // The default language also used as a fallback
   default: 'en',
@@ -16,11 +16,6 @@ module.exports = {
   // You can add some custom fields, like a path to a flag icon
   // !! Please keep the default language at the end of this array. At least one item is required.
   available: [
-    {
-      lang: 'fr',
-      locale: 'fr_FR',
-      name: 'Français',
-    },
     {
       lang: 'en',
       locale: 'en_EN',
@@ -36,12 +31,6 @@ module.exports = {
   // Defines where and how the locales files are stored
   localesPath: 'locales',
   localesFormat: '{{lng}}/{{ns}}',
-
-  // Defines if the language subpaths should be showed in the url
-  // all: yes for all the locales, including the default one
-  // foreign: yes for all the locales, except the default one
-  // @see https://github.com/isaachinman/next-i18next#5-locale-subpaths
-  localeSubpaths: 'all',
 
   // Enabling debug for i18next
   debug: false,

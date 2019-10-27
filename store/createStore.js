@@ -35,6 +35,7 @@ const DEFAULT_STATE = {
     lang: config.lang.default,
     routes,
   },
+  jokes: []
 };
 
 
